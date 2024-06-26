@@ -18,6 +18,7 @@ The project requires the following dependencies:
 - matplotlib 3.8.4
 - tensorflow 2.16.1
 - keras  3.3.3
+- argparse 1.4.0
 
 ## Installation
 
@@ -45,7 +46,7 @@ To install the required dependencies, follow these steps:
 
      In terminal, type the following command below to install dependencies.
 
-    pip install numpy==1.26.4 pandas==2.2.2 matplotlib==3.8.4 tensorflow==2.16.1 keras==3.3.3
+    pip install numpy==1.26.4 pandas==2.2.2 matplotlib==3.8.4 tensorflow==2.16.1 keras==3.3.3 argparse=1.4.0
 
 5.  **Download real user data:**
   
@@ -67,10 +68,11 @@ To install the required dependencies, follow these steps:
 
 3. **Run the main script**
 
-    In terminal, get into the folder that contains the "generate_snythetic_users.py" file and run it.
+    In terminal, get into the folder that contains the "generate_snythetic_users.py" script and run it. For help with input arguments run
 
     ```
-    python generate_snythetic_users.py
+    python generate_snythetic_users.py -h
+
 
 ## Description Of Each File
 

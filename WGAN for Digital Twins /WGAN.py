@@ -5,8 +5,6 @@ sys.path.insert(0, '../Include/')
 from userdatahandler import UserData
 
 from Model import GenerativeAI
-# import matplotlib
-# matplotlib.use('Agg')
 
 # Ignore some warnings
 import warnings
